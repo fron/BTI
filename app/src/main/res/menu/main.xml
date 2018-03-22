@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.francisqueins.breakingtheice.MainActivity">
+
+
+    <item android:id="@+id/menuOption1"
+        android:title="@string/menuOption_MapReport"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/menuOption2"
+        android:title="@string/menuOption_CreateReport"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/menuOption3"
+        android:title="@string/menuOption_CreateMessage"
+        android:orderInCategory="102"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/menuOption4"
+        android:title="@string/menuOption_Contacts"
+        android:orderInCategory="103"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/menuOption5"
+        android:title="@string/menuOption_Exit"
+        android:orderInCategory="104"
+        app:showAsAction="never"
+        />
+
+</menu>

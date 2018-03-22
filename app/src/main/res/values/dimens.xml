@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="activity_horizontal_margin">5dp</dimen>
+    <dimen name="activity_vertical_margin">5dp</dimen>
+    <dimen name="padding_5dp">5dp</dimen>
+    <dimen name="textRowSize">18dp</dimen>
+    <dimen name="textTitleSize">25dp</dimen>
+    <dimen name="textButtonSize">20dp</dimen>
+    <dimen name="padding_10dp">10dp</dimen>
+    <dimen name="padding_15dp">15dp</dimen>
+</resources>

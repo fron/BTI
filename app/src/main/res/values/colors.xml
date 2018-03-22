@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#FF4081</color>
+    <color name ="colorLime">#aeda29</color>
+    <color name ="colorBlack">#000000</color>
+    <color name = "colorAcid_green">#B0BF1A</color>
+    <color name = "colorBitterLemon">#CAE00D</color>
+    <color name = "colorBitterlime">#BFFF00</color>
+    <color name = "colorGainsboro">#dcdcdc</color>
+    <color name = "colorWhite">#FFFFFF</color>
+    <color name = "colorOlive">#949337</color>
+    <color name = "colorGrey">#272727</color>
+    <color name = "colorCream">#c6c6c6</color>
+    <color name = "colorLightBlue">#20a981</color>
+    <color name = "colorNavyBlue">#193048</color>
+    <color name = "colorLightGray">#2c2c2d</color>
+
+</resources>

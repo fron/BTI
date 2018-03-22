@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.francisqueins.breakingtheice.MainActivity"
+    android:background="@color/colorLightGray">
+
+    <!-- LOGIN -->
+   <TextView
+        android:text = "Login"
+        android:textSize = "25dp"
+        android:id = "@+id/textviewLogin"
+        android:textColor = "@color/colorCream"
+        android:layout_width="wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/bti_icon"
+        android:src="@drawable/btilogo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@+id/textviewLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp" />
+
+    <!-- PHONE NUMBER -->
+    <EditText
+        android:id="@+id/textPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bti_icon"
+        android:layout_marginTop="16dp"
+        android:layout_toLeftOf="@+id/textviewLogin"
+        android:layout_toStartOf="@+id/textviewLogin"
+        android:focusable="true"
+        android:hint="Enter Phone #"
+        android:inputType="phone"
+        android:textColor="@color/colorCream"
+        android:textColorHighlight="@color/colorCream"
+        android:textColorHint="@color/colorCream"
+        android:backgroundTint="@android:color/holo_green_light"
+        tools:textColor="@color/colorCream" />
+
+    <!-- PASSWORD -->
+
+    <EditText
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/textPWD"
+        android:textColorHighlight = "@color/colorCream"
+        android:textColor="@color/colorCream"
+        android:textColorHint="@color/colorCream"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/textPhone"
+        android:layout_alignLeft="@+id/textPhone"
+        android:layout_alignStart="@+id/textPhone" />
+
+    <!-- BUTTON LOGIN -->
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textPWD"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="38dp"
+        android:layout_toLeftOf="@+id/buttonCancel"
+        android:layout_toStartOf="@+id/buttonCancel"
+        android:onClick="onLogin"
+        android:text="login" />
+
+    <!-- BUTTON CANCEL -->
+    <Button
+        android:id="@+id/buttonCancel"
+        android:text="Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonLogin"
+        android:layout_alignBottom="@+id/buttonLogin"
+        android:layout_alignLeft="@+id/bti_icon"
+        android:layout_alignStart="@+id/bti_icon"
+        android:onClick="onCancel"/>
+
+    <!-- BUTTON REGISTER -->
+    <Button
+        android:id="@+id/buttonRegister"
+        android:text="Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonCancel"
+        android:layout_alignBottom="@+id/buttonCancel"
+        android:layout_toRightOf="@+id/textPWD"
+        android:layout_toEndOf="@+id/textPWD"
+        android:onClick="onRegister"/>
+
+</RelativeLayout>
+
+
+

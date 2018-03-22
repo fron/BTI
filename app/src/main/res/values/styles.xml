@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+        <!-- Background color for the title. -->
+        <item name="colorPrimary">@color/colorLime</item>
+        <!-- Background color for the phone options menu. -->
+        <item name="colorPrimaryDark">@color/colorBlack</item>
+        <item name="colorAccent">@color/colorCream</item>
+
+    </style>
+
+
+</resources>

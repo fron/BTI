@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.francisqueins.breakingtheice.MainActivity"
+    android:background="@color/colorBlack">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAcid_green"
+        android:gravity="center_horizontal" >
+
+        <com.example.francisqueins.breakingtheice.TypefacedTextView
+            android:id="@+id/addLocationTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_5dp"
+            android:text="@string/add_contact"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/colorWhite" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.example.francisqueins.breakingtheice.TypefacedTextView
+            android:id="@+id/conPhoneView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/con_phone"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/colorLightBlue" />
+
+        <EditText
+            android:id="@+id/conPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="2"
+            android:inputType="phone"
+            android:textColor="@color/colorWhite">
+
+
+            <requestFocus />
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.example.francisqueins.breakingtheice.TypefacedTextView
+            android:id="@+id/conNameView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/colorLightBlue"
+            android:text="@string/con_name"
+            />
+
+        <EditText
+            android:id="@+id/conName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:textColor="@color/colorWhite"
+            android:inputType="textCapWords" >
+
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="addNewContact"
+            android:background="@color/colorGrey"
+            android:textColor="@color/colorLightBlue"
+            android:textSize="@dimen/textButtonSize"
+            android:text="@string/save_data" />
+    </TableRow>
+</TableLayout>

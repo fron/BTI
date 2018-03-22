@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Breaking The I.C.E</string>
+    <string name="menuOption_MapReport">Check I.C.E. Reports</string>
+    <string name="menuOption_CreateReport">Create an I.C.E. Report</string>
+    <string name="menuOption_CreateMessage">Send a Message to your Contacts</string>
+    <string name="menuOption_Contacts">Manage your Contacts</string>
+    <string name="menuOption_Exit">Exit</string>
+    <string name="save_button">Save Alert</string>
+    <string name="add_button">Add</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="contacts_title">Select Contact</string>
+    <string name="con_phone">Telephone</string>
+    <string name="con_name">Name</string>
+    <string name="con_email">Email</string>
+
+    <string name="add_contact">Add  New  Contact</string>
+    <string name="edit_contact">Edit Contact</string>
+    <string name="delete_button">Delete Contact</string>
+    <string name="save_data">Save</string>
+
+</resources>
