@@ -69,7 +69,7 @@ public class sendAmessage extends AppCompatActivity {
         {
             toNumber = numbersArrayList[i];
             sendSMS(toNumber, "This is an auto generated message -DO NOT REPLY- there is a I.C.E. raid " +
-                    "in progress near you. Further details at the 'Breaking The I.C.E.' application.");
+                    "in progress near you. For more details access your 'Breaking The I.C.E.' application.");
         }
 
         if(numContacts >= 0){
