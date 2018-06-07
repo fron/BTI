@@ -68,12 +68,12 @@ public class sendAmessage extends AppCompatActivity {
         for ( int i=0; i<= numContacts; i++)
         {
             toNumber = numbersArrayList[i];
-            sendSMS(toNumber, "This is an auto generated message -DO NOT REPLY- there is a I.C.E. operation " +
-                    "in progress near you. Further details at the 'Breaking The I.C.E.' application.");
+            sendSMS(toNumber, "This is an auto generated message -DO NOT REPLY- there is a I.C.E. raid " +
+                    "in progress near you. For more details access your 'Breaking The I.C.E.' application.");
         }
 
         if(numContacts >= 0){
-            Toast.makeText(getApplicationContext(), "A message has been sent to your contacts", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "Message sent to your contacts", Toast.LENGTH_LONG).show();
         }
         finish();
     }
